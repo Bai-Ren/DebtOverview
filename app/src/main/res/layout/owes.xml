@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Owes"
+        android:text="Loans/Debt"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal|top"
         android:textSize="40dp"
@@ -14,5 +14,29 @@
         android:textStyle="bold"
         android:textColor="#ffffff"
         android:background="#c9201b1b" />
+
+    <Button
+        android:id="@+id/button"
+        android:text="Add Debt"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:clickable="true"
+        android:elegantTextHeight="false"
+        android:layout_column="17"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        android:background="#c9201b1b"
+        android:layout_gravity="center"></ListView>
 
 </FrameLayout>

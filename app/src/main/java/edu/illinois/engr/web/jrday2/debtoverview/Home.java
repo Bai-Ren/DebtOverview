@@ -18,6 +18,9 @@ public class Home extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.home, container, false);
+        String bibi = "WAZZUP";
+        TextView textView = (TextView) rootview.findViewById(R.id.textViewName);
+        textView.setText(bibi);
         return rootview;
     }
 }

@@ -17,6 +17,8 @@ public class Owes extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.owes, container, false);
+
+
         return rootview;
     }
 }
