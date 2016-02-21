@@ -16,4 +16,8 @@
         android:background="#c9201b1b"
         android:focusableInTouchMode="false" />
 
+    <!--<ListView
+        android:id="@+id/blacklist"
+        />-->
+
 </FrameLayout>
